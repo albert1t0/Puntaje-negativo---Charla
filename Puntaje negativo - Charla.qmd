@@ -8,37 +8,36 @@ format:
 
 ## Penalización en admisión
 
-1. Evaluaciones previas al 2009 se penalizan las respuestas incorrectas
+1.  Evaluaciones previas al 2009 se penalizan las respuestas incorrectas
 
-    - 4 puntos correcta y menos un punto incorrecta
-    - Se estandarizaban los puntajes y se escalaba
-    - El puntajes total era la suma de los parciales
-    - 5 alternativas de respuesta
+    -   4 puntos correcta y menos un punto incorrecta
+    -   Se estandarizaban los puntajes y se escalaba
+    -   El puntajes total era la suma de los parciales
+    -   5 alternativas de respuesta
 
----
+------------------------------------------------------------------------
 
 ## Penalización en admisión
 
-2. A partir del 2009 se inicia un nuevo sistema de evaluaciones
+2.  A partir del 2009 se inicia un nuevo sistema de evaluaciones
 
-    - Se elaboran escalas para cada una de las áreas evaluadas
-    - Se utiliza para la medición RMT (Teoría de Medición de Rasch)
-    - Por cada tres ítems erróneos se restaba un punto
-    - 4 alternativas de respuesta
+    -   Se elaboran escalas para cada una de las áreas evaluadas
+    -   Se utiliza para la medición RMT (Teoría de Medición de Rasch)
+    -   Por cada tres ítems erróneos se restaba un punto
+    -   4 alternativas de respuesta
 
----
+------------------------------------------------------------------------
 
 ## Problemas de la penalización
 
-- Errores no deseados desde el punto de vista de la medición
-  - Al restar puntos su medida en la escala de logits cambia
-  - Medida asociada al número de respuestas correctas.
-  - Evaluación diagnóstica errónea
-- Debido a la naturaleza de algunos ítems, problemas de precisión en
-la medición
-  - La utilización de *distractores* lleva a cometer errores
+-   Errores no deseados desde el punto de vista de la medición
+    -   Al restar puntos su medida en la escala de logits cambia
+    -   Medida asociada al número de respuestas correctas.
+    -   Evaluación diagnóstica errónea
+-   Debido a la naturaleza de algunos ítems, problemas de precisión en la medición
+    -   La utilización de *distractores* lleva a cometer errores
 
----
+------------------------------------------------------------------------
 
 ## Ejemplos de distribuciones de puntajes
 
@@ -53,7 +52,7 @@ hist(x, breaks = 20, main = "Puntajes de una evaluación", xlab = "Puntajes",
 
 ```
 
----
+------------------------------------------------------------------------
 
 ## Ejemplos de distribuciones de puntajes
 
@@ -65,12 +64,44 @@ hist(x[x>=60], breaks = 10, col = "green", add = TRUE)
 
 ```
 
----
+------------------------------------------------------------------------
 
 ## Algunas caracterśitcas de la admisión
 
-- Se desea mayor precisión en los admitidos, especialmente en los que pelean
-vacantes
-- La selección de los ítems y elaboración tienen estas consideraciones
+-   Se desea mayor precisión en los admitidos, especialmente en los que pelean vacantes
+-   La selección de los ítems y elaboración tienen estas consideraciones
 
+------------------------------------------------------------------------
+
+## El problema de la adivinación
+
+-   El adivinar puede dar la admisión
+-   Los examinados que hábiles, adivinación informada.
+-   Los examinados que no hábiles, azar.
+
+------------------------------------------------------------------------
+
+## Se perjudican los mejores
+
+![Puntajes a Escala](figura1.png){fig-align="center" width="640"}
+
+---
+
+## Probabilidad de acertar por azar {.smaller}
+
+
+|Número de preguntas acertadas por azar|Número de patrones de respuesta posibles|Probabilidad|
+|---|---|---|
+|1|4|25%|
+|2|16|6,25%|
+|3|64|1,56%|
+|4|256|0,391%|
+|5|1024|0,097%|
+|6|4096|0,024%|
+|7|16384|0,006%|
+|8|65536|0,002%|
+|9|262144|0,000%|
+|10|1048576|0,000%|
+
+---
 
