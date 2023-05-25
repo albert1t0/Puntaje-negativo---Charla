@@ -389,21 +389,22 @@ Alberto Torreblanca
 <ul>
 <li>Se desea mayor precisión en los admitidos, especialmente en los que pelean vacantes</li>
 <li>La selección de los ítems y elaboración tienen estas consideraciones</li>
-<li>Los examinados de la cola no son interesantes para la evaluación</li>
+<li>Mayor información en donde se pelean las vacantes para la admisión</li>
+<li>Los examinados de la cola no son interesantes para las evaluación de admisión</li>
 </ul>
 </section>
 <section id="el-problema-de-la-adivinación" class="slide level2">
 <h2>El problema de la adivinación</h2>
 <ul>
 <li>El adivinar puede dar la admisión</li>
-<li>Los examinados que hábiles, adivinación informada.</li>
-<li>Los examinados que no hábiles, azar.</li>
+<li>Los examinados hábiles, adivinación informada.</li>
+<li>Los examinados no hábiles, azar.</li>
 </ul>
 </section>
 <section id="se-perjudican-los-mejores" class="slide level2">
 <h2>Se perjudican los mejores</h2>
 
-<img data-src="figura1.png" width="640" class="r-stretch quarto-figure-center"><p class="caption">Puntajes a Escala</p></section>
+<img data-src="figura1.png" width="640" class="r-stretch quarto-figure-center"><p class="caption">Puntajes VS Escala</p></section>
 <section id="probabilidad-de-acertar-por-azar" class="slide level2 smaller">
 <h2>Probabilidad de acertar por azar</h2>
 <table>
@@ -473,11 +474,237 @@ Alberto Torreblanca
 </tbody>
 </table>
 </section>
-<section class="slide level2">
-
+<section id="información-donde-se-estudia-la-adivinación" class="slide level2">
+<h2>Información donde se estudia la adivinación</h2>
+<ul>
+<li>Se combina las tablas de alternativas de los ítems
+<ul>
+<li>CTT</li>
+<li>RMT</li>
+</ul></li>
+<li>Patrones de respuestas de los examinados</li>
+<li>Indicadores de ajuste externo de los examinados</li>
+</ul>
+</section>
+<section id="ejemplos-de-tablas" class="slide level2 smaller">
+<h2>Ejemplos de tablas</h2>
+<table>
+<colgroup>
+<col style="width: 19%">
+<col style="width: 7%">
+<col style="width: 9%">
+<col style="width: 10%">
+<col style="width: 12%">
+<col style="width: 9%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Alternativa</th>
+<th style="text-align: left;">N</th>
+<th style="text-align: left;">Prop</th>
+<th style="text-align: left;">pBis</th>
+<th style="text-align: left;">Discr.</th>
+<th style="text-align: left;">Bajo</th>
+<th style="text-align: left;">Med50</th>
+<th style="text-align: left;">Med75</th>
+<th style="text-align: left;">Altos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">_</td>
+<td style="text-align: left;">71</td>
+<td style="text-align: left;">0.11</td>
+<td style="text-align: left;">-0.16</td>
+<td style="text-align: left;">-0.09</td>
+<td style="text-align: left;">0.18</td>
+<td style="text-align: left;">0.06</td>
+<td style="text-align: left;">0.09</td>
+<td style="text-align: left;">0.1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>A</strong></td>
+<td style="text-align: left;">160</td>
+<td style="text-align: left;">0.25</td>
+<td style="text-align: left;">0.11</td>
+<td style="text-align: left;">0.14</td>
+<td style="text-align: left;">0.2</td>
+<td style="text-align: left;">0.2</td>
+<td style="text-align: left;">0.28</td>
+<td style="text-align: left;">0.34</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">185</td>
+<td style="text-align: left;">0.29</td>
+<td style="text-align: left;">-0.14</td>
+<td style="text-align: left;">-0.08</td>
+<td style="text-align: left;">0.34</td>
+<td style="text-align: left;">0.32</td>
+<td style="text-align: left;">0.25</td>
+<td style="text-align: left;">0.25</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">C</td>
+<td style="text-align: left;">151</td>
+<td style="text-align: left;">0.24</td>
+<td style="text-align: left;">-0.03</td>
+<td style="text-align: left;">0.06</td>
+<td style="text-align: left;">0.17</td>
+<td style="text-align: left;">0.29</td>
+<td style="text-align: left;">0.27</td>
+<td style="text-align: left;">0.23</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">D</td>
+<td style="text-align: left;">70</td>
+<td style="text-align: left;">0.11</td>
+<td style="text-align: left;">-0.07</td>
+<td style="text-align: left;">-0.03</td>
+<td style="text-align: left;">0.12</td>
+<td style="text-align: left;">0.13</td>
+<td style="text-align: left;">0.1</td>
+<td style="text-align: left;">0.09</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="ejemplo-de-tablas" class="slide level2 smaller">
+<h2>Ejemplo de tablas</h2>
+<table>
+<colgroup>
+<col style="width: 17%">
+<col style="width: 6%">
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Alternativa</th>
+<th style="text-align: left;">N</th>
+<th style="text-align: left;">Por %</th>
+<th style="text-align: left;">Media</th>
+<th style="text-align: left;">SD Mean</th>
+<th style="text-align: left;">SE Mean</th>
+<th style="text-align: left;">Interno</th>
+<th style="text-align: left;">Externo</th>
+<th style="text-align: left;">Corre.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>A</strong></td>
+<td style="text-align: left;">155</td>
+<td style="text-align: left;">25.20</td>
+<td style="text-align: left;">0.21</td>
+<td style="text-align: left;">1.06</td>
+<td style="text-align: left;">0.09</td>
+<td style="text-align: left;">1.25</td>
+<td style="text-align: left;">1.30</td>
+<td style="text-align: left;">0.18</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">B</td>
+<td style="text-align: left;">180</td>
+<td style="text-align: left;">29.27</td>
+<td style="text-align: left;">-0.18</td>
+<td style="text-align: left;">0.80</td>
+<td style="text-align: left;">0.06</td>
+<td style="text-align: left;">1.12</td>
+<td style="text-align: left;">1.09</td>
+<td style="text-align: left;">-0.07</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">C</td>
+<td style="text-align: left;">145</td>
+<td style="text-align: left;">23.58</td>
+<td style="text-align: left;">-0.04</td>
+<td style="text-align: left;">0.79</td>
+<td style="text-align: left;">0.07</td>
+<td style="text-align: left;">1.20</td>
+<td style="text-align: left;">1.23</td>
+<td style="text-align: left;">0.02</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">D</td>
+<td style="text-align: left;">69</td>
+<td style="text-align: left;">11.22</td>
+<td style="text-align: left;">-0.14</td>
+<td style="text-align: left;">0.77</td>
+<td style="text-align: left;">0.09</td>
+<td style="text-align: left;">1.12</td>
+<td style="text-align: left;">1.12</td>
+<td style="text-align: left;">-0.03</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">_</td>
+<td style="text-align: left;">66</td>
+<td style="text-align: left;">10.73</td>
+<td style="text-align: left;">-0.46</td>
+<td style="text-align: left;">0.89</td>
+<td style="text-align: left;">0.11</td>
+<td style="text-align: left;">0.97</td>
+<td style="text-align: left;">0.87</td>
+<td style="text-align: left;">-0.15</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="matriz-de-respuestas" class="slide level2 scrollable">
+<h2>Matriz de respuestas</h2>
+<pre><code>         |Item
+         |  1   22 41323333111444123334  221 3412124344122
+MEASURE  |724365288229001470310389763211413898664597545765 Examinado 
+      high------------------------------------------------
+   -.79  |.................................1..1.........1. 323 00323
+   -.79  |.................................1......1.....1. 387 00388
+   -.79 E|0...............................1..111...1....11 415 00416
+   -.79  |...............................111......1.....1. 416 00417
+   -.91 R|0.....................................1..1.1..1. 426 00427
+  -1.03 G|0........................1.1....11111....1....1. 132 00132
+  -1.03 H|0...........................11.....1.1....11..1. 577 00579
+  -1.03  |..........................1................1...1 579 00581
+  -1.16 I|0.........................11.....1......1.1...1. 246 00246
+  -1.16  |..........................1.1...........1.1...1. 252 00252
+  -1.16  |......................1.......................1. 304 00304
+  -1.16  |...............................1...1....1....1.. 319 00319
+  -1.16  |...........................1...1...........1..1. 543 00545
+  -1.16  |...........................1...........11.....1. 545 00547
+  -1.30 O|...........................11......11.........1. 109 00109
+  -1.44  |0...................11...............1.......1..  10 00010
+  -1.44 F|0..................11................1.1..1...1. 125 00125
+  -1.44  |...........................1......11....1...1... 386 00387
+  -1.44 V|...................11........1......1....1...1.. 508 00510
+  -1.60  |.................1..1.1..........1.......1...... 104 00104
+  -1.60  |......................1...1.....1........1.1.... 501 00503
+  -1.77  |.................11...........1..............1.. 135 00135
+  -1.77  |...............1................1.....1...1..... 274 00274
+  -1.77  |...............1...........1..11..........1..... 293 00293
+  -1.77  |..................1..............1.........1.... 459 00460
+  -1.77  |..............11..........1.........1...1....... 536 00538
+  -1.95 B|..............1......1.............11.11.1...... 118 00118
+  -2.16  |........1........11...............1.............  99 00099
+  -2.16  |.............1...............1.........1........ 157 00157
+  -2.16  |.........1.1........1..............1.1.......... 550 00552
+         |------------------------------------------------low
+         |721365228413233331114441233341422193412124344122
+         |  4   28 22900147031038976321  138 8664597545765</code></pre>
+</section>
+<section id="gracias" class="slide level2 center">
+<h2>¡GRACIAS!</h2>
+<p><strong>Telegram:</strong> <span class="citation" data-cites="AlbertoTorreblanca">@AlbertoTorreblanca</span></p>
+<p><strong>Twitter:</strong> <span class="citation" data-cites="AlbrTorreblanca">@AlbrTorreblanca</span></p>
 
 <img src="./Nuevo_logo_pucp_blanco.png" class="slide-logo r-stretch"><div class="footer footer-default">
-
+<p>alberto.torreblanca@pucp.edu.pe</p>
 </div>
 </section>
     </div>
