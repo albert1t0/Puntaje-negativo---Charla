@@ -7,3 +7,4 @@
 _quarto.yml
 
 *_files/*
+*.html
